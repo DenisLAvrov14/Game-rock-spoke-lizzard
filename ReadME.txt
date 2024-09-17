@@ -39,3 +39,12 @@ node game.js [move1] [move2] [move3] ...
 Examples:
 node game.js rock paper scissors
 node game.js rock paper scissors lizard Spock
+
+Examples of incorrect commands:
+node game.js rock rock paper
+node game.js rock paper scissors lizard
+node game.js rock
+node game.js
+
+Generation of a help table (based on 5 parameters):
+node game.js rock paper scissors lizard Spock
